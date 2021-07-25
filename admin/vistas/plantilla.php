@@ -9,7 +9,7 @@ session_start();
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>MUNICIPIO - ADMIN</title>
+  <title>Admin | Municipalidad Distrital de San Juan del Oro</title>
   <link rel="icon" href="vistas/img/plantilla/icono.png">
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
 

@@ -41,7 +41,7 @@
 
 	?>
 
-  <title>MUNICIPALIDAD</title>
+  <title>Inicio | Municipalidad Distrital de San Juan del Oro</title>
   <meta content="" name="description">
 
   <meta content="" name="keywords">
