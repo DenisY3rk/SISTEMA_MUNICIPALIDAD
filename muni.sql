@@ -6,6 +6,10 @@
 -- Tiempo de generación: 24-07-2021 a las 09:36:17
 -- Versión del servidor: 10.4.14-MariaDB
 -- Versión de PHP: 7.2.34
+CREATE SCHEMA IF NOT EXISTS `muni` DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;
+USE `muni` ;
+
+
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
