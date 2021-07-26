@@ -3,8 +3,8 @@
     
 	<!-- Brand Logo -->
     <a href="inicio" class="brand-link">
-      <img src="vistas/img/plantilla/icono.png" alt="AdminLTE Logo" class="brand-image elevation-3" style="opacity: .8">
-      <span class="brand-text font-weight-light">Municipalidad Distrital de San Juan del Oro</span>
+      <img src="vistas/img/plantilla/icono.png" alt="AdminLTE Logo" class="brand-image elevation-3" style="opacity: .99">
+      <span class="brand-text font-weight-light font-text-size">Municipalidad Distrital<strong class="text_font">San Juan del Oro</strong></span>
     </a>
 
     <!-- Sidebar -->

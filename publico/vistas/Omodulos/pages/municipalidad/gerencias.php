@@ -4,7 +4,7 @@
       <div class="container" data-aos="fade-up">
 
         <header class="section-header">
-          <h2>Team</h2>
+          <h2>Equipo de trabajo</h2>
           <p>GERENCIAS</p>
         </header>
 

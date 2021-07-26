@@ -160,3 +160,14 @@
 	border-radius: 5px;
 	cursor: pointer;
 }
+.font-text-size{
+	display: block;
+	font-size: 14px;
+}
+.text_font{
+	display: block;
+	font-size: 18px;
+}
+.brand-link .brand-image{
+	max-height: 45px;
+}

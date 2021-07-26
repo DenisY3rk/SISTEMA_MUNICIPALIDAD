@@ -118,9 +118,14 @@
 	$MClase = null;
 
 	if(isset($_GET["ruta"])){
-
+		
 		$rutas = explode("/", $_GET["ruta"]);
-
+		/*
+		foreach ($rutas as $k => $j){
+			echo $j;
+			echo $k;
+		}  
+		*/
 		$item = "ruta";
 		$valor =  $rutas[0];
 
@@ -140,7 +145,7 @@
 		LISTA BLANCA DE URL'S AMIGABLES
 		=============================================*/
 
-		if($ruta != null || $rutas[0] == "mas-noticias"){
+		if($ruta != null || $rutas[0] == "publicaciones"){
 
 			$MClase = 0;
 			include "Omodulos/blog.php";
@@ -152,7 +157,6 @@
 		}else if($rutas[0] == "buscador"){
 			
 			include "Omodulos/blogBuscador.php";
-			//include "Omodulos/buscarNoticias.php";
 
 		}else if($rutas[0] == "CNoticia"){
 			
@@ -169,15 +173,22 @@
 			$MClase = 3;
 			include "Omodulos/blog.php";
 
-		}else if($rutas[0] == "gerencias" || $rutas[0] == "nesaPartes"){
+		}else if($rutas[0] == "nesaPartes" || $rutas[0] == "infoCarousel" ){
 
 			include "Omodulos/".$rutas[0].".php";
+
+		}else if($rutas[0] == "historia" || $rutas[0] == "himno" ){
+
+			include "Omodulos/pages/san-juan-del-oro/".$rutas[0].".php";
+
+		}else if($rutas[0] == "mision" || $rutas[0] == "vision" || $rutas[0] == "organigrama" || $rutas[0] == "gerencias" ){
+
+			include "Omodulos/pages/municipalidad/".$rutas[0].".php";
 
 		}else if($rutas[0] == "inicio"){
 
 			include "Omodulos/carousel.php";
 			include "Omodulos/servicios.php";
-			include "Omodulos/quienesSomos.php";
 			include "Omodulos/Inoticias.php";
 			//include "Omodulos/infoCarousel.php";
 			include "Omodulos/preguntasF.php";
@@ -192,7 +203,6 @@
 
 		include "Omodulos/carousel.php";
 		include "Omodulos/servicios.php";
-		include "Omodulos/quienesSomos.php";
 		include "Omodulos/Inoticias.php";
 		//include "Omodulos/infoCarousel.php";
 		include "Omodulos/preguntasF.php";

@@ -14,7 +14,7 @@
     ?>
     
   </div>
-  <div class="carousel-inner">
+  <div class="carousel-inner col-lg-4"> 
     
     <?php
 

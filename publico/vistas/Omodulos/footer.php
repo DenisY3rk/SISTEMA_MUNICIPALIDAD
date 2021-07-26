@@ -5,49 +5,45 @@
       <div class="container">
         <div class="row gy-4">
           <div class="col-lg-5 col-md-12 footer-info">
-            <a href="index.html" class="logo d-flex align-items-center">
-              <img src="<?php echo $url; ?>vistas/assets/img/logo.png" alt="">
-              <span>FlexStart</span>
+            <a href="<?php echo $url; ?>" class="logo d-flex align-items-center">
+              <img src="<?php echo $servidor."vistas/img/plantilla/icono.png";?>" alt="">
+              <span>Municipalidad Distrital de San Juan del Oro</span>
             </a>
-            <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta donna mare fermentum iaculis eu non diam phasellus.</p>
+            <p>¡Siguenos en nuestras redes sociales!</p>
             <div class="social-links mt-3">
+              <a href="https://www.facebook.com/Municipalidad-Distrital-de-San-Juan-del-Oro-302831833781863/" target="_blank" class="bi bi-facebook"></i></a>
+              <a href="#" class="youtube"><i class="bi bi-youtube"></i></a>
+              <a href="#" class="whatsapp"><i class="bi bi-whatsapp"></i></a>
               <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
-              <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-              <a href="#" class="instagram"><i class="bi bi-instagram bx bxl-instagram"></i></a>
-              <a href="#" class="linkedin"><i class="bi bi-linkedin bx bxl-linkedin"></i></a>
             </div>
           </div>
 
           <div class="col-lg-2 col-6 footer-links">
-            <h4>Useful Links</h4>
+            <h4>Enlaces</h4>
             <ul>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">Home</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">About us</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">Services</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">Terms of service</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">Privacy policy</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="inicio">Inicio</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="gerencias">Gerencias</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="infoCarousel">Videos</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Términos y condiciones</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Políticas de privacidad</a></li>
             </ul>
           </div>
 
           <div class="col-lg-2 col-6 footer-links">
-            <h4>Our Services</h4>
-            <ul>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">Web Design</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">Web Development</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">Product Management</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">Marketing</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">Graphic Design</a></li>
-            </ul>
+            <h4>Horario de atención</h4>
+            <p>
+              Lunes a Viernes <br>
+              8:00am a 17:00pm
+            </p>
           </div>
 
           <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
-            <h4>Contact Us</h4>
+            <h4>Información de contacto</h4>
             <p>
-              A108 Adam Street <br>
-              New York, NY 535022<br>
-              United States <br><br>
-              <strong>Phone:</strong> +1 5589 55488 55<br>
-              <strong>Email:</strong> info@example.com<br>
+            <strong>Dirección:</strong> Pza. de Armas Nro. s/n Cercado, San Juan del Oro - Sandia - Puno - Perú <br>
+              <strong>Contacto 1:</strong> (051) 000000<br>
+              <strong>Contacto 2:</strong> (051) 000000<br>
+              <strong>Email:</strong> sanjuandeloro@gmail.com
             </p>
 
           </div>
@@ -58,7 +54,7 @@
 
     <div class="container">
       <div class="copyright">
-        &copy; Copyright <strong><span>FlexStart</span></strong>. All Rights Reserved
+        &copy; Copyright <strong><span><a href="<?php echo $url; ?>">Municipalidad Distrital de San Juan del Oro</a></span></strong> 2021. Todos los derechos reservados
       </div>
       <div class="credits">
         <!-- All the links in the footer should remain intact. -->

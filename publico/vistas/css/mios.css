@@ -103,3 +103,42 @@ MOVIL (XS revisamos en 320px)
 	height: 160px;
 }
 
+.carousel-caption h5 {
+	background-color: #0A5B33;
+	border-radius: 20px;
+	padding: 15px;
+	box-shadow: 3px 3px 3px #7eebb8;
+}
+
+.container-modulo-mision, .container-modulo-himno{
+	padding: 30px 120px 200px 130px;
+	text-align: justify;
+}
+.container-modulo-mision h2, .container-modulo-himno h2{
+	font-weight: bold;
+	margin-bottom: 40px;	
+}
+.container-modulo-mision p{
+	font-size: 15px;
+}
+.container-modulo-mision img{
+	display: block;
+	margin: auto;
+	height: 750px;
+}
+
+.container-modulo-himno p strong{
+	font-size: 20px;
+	text-align: center;
+	display: block;
+	margin: 10px;
+
+}
+
+.container-modulo-himno p{
+	font-size: 15px;
+	text-align: center;
+}
+.admin{
+	margin-right: 50px;
+}

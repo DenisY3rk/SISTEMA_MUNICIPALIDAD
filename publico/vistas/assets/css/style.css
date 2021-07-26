@@ -212,7 +212,7 @@ section {
 # Top Bar
 --------------------------------------------------------------*/
 #topbar {
-  background: #059652;
+  background: #0A5B33;
   height: 40px;
   font-size: 14px;
   transition: all 0.5s;
@@ -255,7 +255,7 @@ section {
 # Header
 --------------------------------------------------------------*/
 #header {
-  background: #fff;
+  background: #059652;
   transition: all 0.5s;
   z-index: 997;
   height: 86px;
@@ -271,7 +271,7 @@ section {
   margin: 0;
   padding: 0;
   line-height: 1;
-  font-weight: 600;
+  font-weight: bold;
   letter-spacing: 0.8px;
   font-family: "Poppins", sans-serif;
 }
@@ -281,11 +281,11 @@ section {
 }
 
 #header .logo a span {
-  color: #106eea;
+  color: #fff;
 }
 
 #header .logo img {
-  max-height: 40px;
+  max-height: 90px;
 }
 
 .scrolled-offset {
@@ -327,7 +327,7 @@ section {
   padding: 0 3px;
   font-size: 15px;
   font-weight: 600;
-  color: #222222;
+  color: #fff;
   white-space: nowrap;
   transition: 0.3s;
   position: relative;
@@ -346,7 +346,7 @@ section {
   height: 2px;
   bottom: -6px;
   left: 0;
-  background-color: #106eea;
+  background-color: #F4FA58;
   visibility: hidden;
   width: 0px;
   transition: all 0.3s ease-in-out 0s;
@@ -358,7 +358,7 @@ section {
 }
 
 .navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
-  color: #106eea;
+  color: #F4FA58;
 }
 
 .navbar .dropdown ul {
@@ -378,11 +378,13 @@ section {
 
 .navbar .dropdown ul li {
   min-width: 200px;
+
 }
 
 .navbar .dropdown ul a {
   padding: 10px 20px;
   font-weight: 400;
+  color: #000;
 }
 
 .navbar .dropdown ul a i {
@@ -390,7 +392,7 @@ section {
 }
 
 .navbar .dropdown ul a:hover, .navbar .dropdown ul .active:hover, .navbar .dropdown ul li:hover > a {
-  color: #106eea;
+  color: #059652;
 }
 
 .navbar .dropdown:hover > ul {
@@ -2380,6 +2382,7 @@ section {
 
 .footer .footer-top .footer-info {
   margin-bottom: 30px;
+  margin-top: 5px;
 }
 
 .footer .footer-top .footer-info .logo {
@@ -2388,21 +2391,23 @@ section {
 }
 
 .footer .footer-top .footer-info .logo img {
-  max-height: 40px;
-  margin-right: 6px;
+  max-height: 55px;
+  margin-right: 2px;
+  
 }
 
 .footer .footer-top .footer-info .logo span {
-  font-size: 30px;
+  font-size: 17px;
   font-weight: 700;
   letter-spacing: 1px;
   color: #012970;
   font-family: "Nunito", sans-serif;
   margin-top: 3px;
+  display: block;
 }
 
 .footer .footer-top .footer-info p {
-  font-size: 14px;
+  font-size: 18px;
   line-height: 24px;
   margin-bottom: 0;
   font-family: "Nunito", sans-serif;
