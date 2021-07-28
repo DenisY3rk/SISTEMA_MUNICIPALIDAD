@@ -110,15 +110,16 @@ MOVIL (XS revisamos en 320px)
 	box-shadow: 3px 3px 3px #7eebb8;
 }
 
-.container-modulo-mision, .container-modulo-himno{
+.container-modulo-mision, .container-modulo-himno, .container-modulo-geografia{
 	padding: 30px 120px 200px 130px;
+	width: 1200px;
 	text-align: justify;
 }
-.container-modulo-mision h2, .container-modulo-himno h2{
+.container-modulo-mision h2, .container-modulo-himno h2, .container-modulo-geografia h2{
 	font-weight: bold;
 	margin-bottom: 40px;	
 }
-.container-modulo-mision p{
+.container-modulo-mision p, .container-modulo-geografia p{
 	font-size: 15px;
 }
 .container-modulo-mision img{
@@ -127,7 +128,7 @@ MOVIL (XS revisamos en 320px)
 	height: 750px;
 }
 
-.container-modulo-himno p strong{
+.container-modulo-himno p strong {
 	font-size: 20px;
 	text-align: center;
 	display: block;
@@ -138,7 +139,12 @@ MOVIL (XS revisamos en 320px)
 .container-modulo-himno p{
 	font-size: 15px;
 	text-align: center;
+	padding: 0 300px;
 }
-.admin{
-	margin-right: 50px;
+
+.container-modulo-geografia p strong {
+	font-size: 20px;
+	text-align: justify;
+	display: block;
+	
 }

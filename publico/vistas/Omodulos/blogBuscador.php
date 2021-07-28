@@ -56,7 +56,7 @@
                             <div class="col-lg-6" data-aos="fade-up">
                             <div class="post-box">
                                 <div class="post-img"><img src="'.$servidor.$value["portada"].'" class="img-fluid" alt=""></div>
-                                <span class="post-date">Tue, September 15</span>
+                                <span class="post-date">'.$value["fecha"].'</span>
                                 <h3 class="post-title">'.$value["titulo"].'</h3>
                                 <a href="'.$url.$value["ruta"].'" class="readmore stretched-link mt-auto"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
                             </div>

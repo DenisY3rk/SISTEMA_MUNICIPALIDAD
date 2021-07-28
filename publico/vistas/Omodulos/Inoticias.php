@@ -128,7 +128,7 @@
 
 	<footer class="section-header">
         
-        <a href="mas-noticias">
+        <a href="publicaciones">
             <h4>VER MAS</h4>
         </a>
 

@@ -1,6 +1,6 @@
 <div class="sidebar">
 
-<h3 class="sidebar-title">Search</h3>
+<h3 class="sidebar-title">Búsqueda</h3>
 <div class="sidebar-item search-form" id="buscador">
 
     <input type="search" name="buscar" class=" buscadorInpt nameBusq" placeholder="Ingresar Datos de Busqueda">
@@ -10,7 +10,7 @@
   
 </div><!-- End sidebar search formn-->
 
-<h3 class="sidebar-title">Categories</h3>
+<h3 class="sidebar-title">Categorías</h3>
 <div class="sidebar-item categories">
   <ul>
     <li><a href="CNoticia">Noticias <span>(<?php echo ControladorGeneral::ctrListar("publicar", "categoria", 1); ?>)</span></a></li>
@@ -19,7 +19,7 @@
   </ul>
 </div><!-- End sidebar categories-->
 
-<h3 class="sidebar-title">Best Posts</h3>
+<h3 class="sidebar-title">Mejores Publicaciones</h3>
 <div class="sidebar-item recent-posts">
 
     
@@ -43,20 +43,21 @@
 
 </div><!-- End sidebar recent posts-->
 
-<h3 class="sidebar-title">Tags</h3>
+<h3 class="sidebar-title">Etiquetas</h3>
 <div class="sidebar-item tags">
   <ul>
-    <li><a href="#">App</a></li>
-    <li><a href="#">IT</a></li>
-    <li><a href="#">Business</a></li>
-    <li><a href="#">Mac</a></li>
-    <li><a href="#">Design</a></li>
-    <li><a href="#">Office</a></li>
-    <li><a href="#">Creative</a></li>
-    <li><a href="#">Studio</a></li>
-    <li><a href="#">Smart</a></li>
-    <li><a href="#">Tips</a></li>
-    <li><a href="#">Marketing</a></li>
+    <li><a href="#">Noticia</a></li>
+    <li><a href="#">Puno</a></li>
+    <li><a href="#">sociales</a></li>
+    <li><a href="#">Municipalidad</a></li>
+    <li><a href="#">Contribuyentes</a></li>
+    <li><a href="#">Fiestas patrías</a></li>
+    <li><a href="#">Bicentenario</a></li>
+    <li><a href="#">sociales</a></li>
+    <li><a href="#">Covid</a></li>
+    <li><a href="#">servicios</a></li>
+    <li><a href="#">tecnología</a></li>
+    <li><a href="#">organización</a></li>
   </ul>
 </div><!-- End sidebar tags-->
 
