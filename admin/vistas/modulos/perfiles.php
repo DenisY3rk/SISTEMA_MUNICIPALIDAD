@@ -277,7 +277,7 @@ MODAL AGREGAR PERFIL
 
                 <option value="administrador">Administrador</option>
 
-                <option value="laboratorista">Editor</option>
+                <option value="editor">Editor</option>
 
               </select>
 
@@ -422,7 +422,7 @@ EDITAR PERFIL
 
                 <option value="administrador">Administrador</option>
 
-                <option value="laboratorista">Laboratorista</option>
+                <option value="editor">Editor</option>
 
               </select>
 
