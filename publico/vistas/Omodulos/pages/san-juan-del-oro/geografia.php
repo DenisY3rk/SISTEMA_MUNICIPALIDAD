@@ -65,6 +65,16 @@
                     <td><strong>Ventanilla: </strong>903 km</td>
                     <td><strong>Callao: </strong>898 km</td>
                 </tr>
+                <tr>
+                    <td><strong>San Juan de Miraflores: </strong>877 km</td>
+                    <td><strong>Los Olivos: </strong>894 km</td>
+                    <td><strong>Puente Piedra: </strong>898 km</td>
+                </tr>
+                <tr>
+                    <td><strong>Santiago de Surco: </strong>882 km</td>
+                    <td><strong>Chorrillos: </strong>883 km</td>
+                    <td><strong>Trujillo: </strong>1275 km</td>
+                </tr>
             </tbody>
             </table>
         </div>
