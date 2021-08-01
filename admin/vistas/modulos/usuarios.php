@@ -39,7 +39,7 @@
 
           <button class="btn btn-primary" data-toggle="modal" data-target="#modalAgregarUserDocente">
           
-            Agregar Usuario Docente
+            Agregar Usuario Editor
 
           </button>
 
@@ -110,7 +110,7 @@ MODAL AGREGAR PERFIL
 
           <button type="button" class="close" data-dismiss="modal">&times;</button>
 
-          <h4 class="modal-title">Agregar Usuario Docente</h4>
+          <h4 class="modal-title">Agregar Usuario Editor</h4>
 
         </div>
 

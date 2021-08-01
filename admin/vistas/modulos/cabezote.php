@@ -9,19 +9,13 @@
       <li class="nav-item d-none d-sm-inline-block">
         <a href="inicio" class="nav-link">Inicio</a>
       </li>
-      <li class="nav-item d-none d-sm-inline-block">
-        <a href="#" class="nav-link">Contacto</a>
-      </li>
+      
     </ul>
 
     <!-- Right navbar links -->
     <ul class="navbar-nav ml-auto">
 
-      <?php
-
-        include "cabezote/buscador.php";
-
-      ?>
+      
   
       <li class="nav-item">
         <a class="nav-link" data-widget="fullscreen" href="#" role="button">
@@ -41,10 +35,6 @@
       </li>
       
       <?php
-
-        include "cabezote/mensajes.php";
-
-        include "cabezote/notificaciones.php";
 
         include "cabezote/usuario.php";
 

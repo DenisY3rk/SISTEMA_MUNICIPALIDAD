@@ -15,7 +15,7 @@ $url = Ruta::ctrRutaServidor();
 	<h3 class="card-title">Ultimos Usuarios</h3>
 
 	<div class="card-tools">
-		<span class="badge badge-danger">8 New Members</span>
+		<span class="badge badge-danger">8 Nuevos miembross</span>
 		<button type="button" class="btn btn-tool" data-card-widget="collapse">
 		<i class="fas fa-minus"></i>
 		</button>
@@ -68,7 +68,7 @@ $url = Ruta::ctrRutaServidor();
 	</div>
 	<!-- /.card-body -->
 	<div class="card-footer text-center">
-	<a href="usuarios">View All Users</a>
+	<a href="usuarios">Vizualizar todos los usuarios</a>
 	</div>
 	<!-- /.card-footer -->
 </div>

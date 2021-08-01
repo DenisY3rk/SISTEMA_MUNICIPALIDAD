@@ -177,7 +177,7 @@
 
 			include "Omodulos/".$rutas[0].".php";
 
-		}else if($rutas[0] == "historia" || $rutas[0] == "himno" || $rutas[0] == "ecografia" || $rutas[0] == "geografia" || $rutas[0] == "clima" ){
+		}else if($rutas[0] == "historia" || $rutas[0] == "himno" || $rutas[0] == "ecografia" || $rutas[0] == "geografia" ){
 
 			include "Omodulos/pages/san-juan-del-oro/".$rutas[0].".php";
 
