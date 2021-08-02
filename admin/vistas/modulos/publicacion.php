@@ -35,7 +35,7 @@
           <div class="card">
 
             <div class="card-header border-transparent">
-              <h3 class="card-title">EVENTOS DE ADMISION</h3>
+              <h3 class="card-title">PUBLICACIONES</h3>
 
               <div class="card-tools">
                 <button type="button" class="btn btn-tool" data-card-widget="collapse">
@@ -148,7 +148,7 @@
             <!-- /.card-body -->
             <div class="card-footer clearfix">
 
-              <a class="btn btn-sm btn-info float-right" data-toggle="modal" data-target="#modalAgregarPublicacion">AGREGAR NUEVO EVENTO DE ADMISION</a>
+              <a class="btn btn-sm btn-info float-right" data-toggle="modal" data-target="#modalAgregarPublicacion">AGREGAR NUEVA PUBLICACIÓN</a>
               
             </div>
             <!-- /.card-footer -->

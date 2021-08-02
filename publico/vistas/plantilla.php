@@ -177,11 +177,11 @@
 
 			include "Omodulos/".$rutas[0].".php";
 
-		}else if($rutas[0] == "historia" || $rutas[0] == "himno" || $rutas[0] == "ecografia" || $rutas[0] == "geografia" ){
+		}else if($rutas[0] == "historia" || $rutas[0] == "himno" || $rutas[0] == "biodiversidad" || $rutas[0] == "geografia" ){
 
 			include "Omodulos/pages/san-juan-del-oro/".$rutas[0].".php";
 
-		}else if($rutas[0] == "mision-vision" || $rutas[0] == "organigrama" || $rutas[0] == "gerencias" || $rutas[0] == "consejomunicipal" || $rutas[0] == "directoriofuncionarios" || $rutas[0] == "leyorganicamunicipalidad" ){
+		}else if($rutas[0] == "mision-vision" || $rutas[0] == "organigrama" || $rutas[0] == "funcionarios" || $rutas[0] == "leyorganicamunicipalidad" ){
 
 			include "Omodulos/pages/municipalidad/".$rutas[0].".php";
 

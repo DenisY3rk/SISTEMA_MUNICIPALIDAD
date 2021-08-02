@@ -55,10 +55,10 @@ MENU
             </a>
           </li>
         <li class="nav-item">
-          <a href="gerencias" class="nav-link">
+          <a href="funcionarios" class="nav-link">
             <i class="nav-icon fas fa-th"></i>
               <p>
-                Gerencias
+                Funcionarios
               </p>
           </a>
         </li>
@@ -91,10 +91,10 @@ MENU
           </a>
         </li>
       <li class="nav-item">
-        <a href="gerencias" class="nav-link">
+        <a href="funcionarios" class="nav-link">
           <i class="nav-icon fas fa-th"></i>
             <p>
-              Gerencias
+              Funcionarios
             </p>
         </a>
       </li>

@@ -13,7 +13,7 @@
 
 
             <?php 
-              $Objetos = ControladorGeneral::ctrMostrar("pvideos", "fecha", null, null, 0, 3, "DESC");
+              $Objetos = ControladorGeneral::ctrMostrar("pvideos", "fecha", null, null, 0, 10, "DESC");
 
               if($Objetos){
 

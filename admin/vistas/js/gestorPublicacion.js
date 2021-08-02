@@ -1060,7 +1060,7 @@ $('#tablaCarrrusel').on("click", ".btnEliminarCimagen", function(){
 
 
 /*=============================================
-GUARDAR GERENCIA
+GUARDAR GERENCIA (Funcionarios)
 =============================================*/
 
 $(".guardarGerencia").click(function(){
@@ -1071,8 +1071,7 @@ $(".guardarGerencia").click(function(){
 	var numContacto = $(".numContacto").val();
 
 	if($(".tituloGerencia").val() != "" &&
-	   $(".nombreGerencia").val() != "" &&
-	   $(".numContacto").val() != ""){
+	   $(".nombreGerencia").val() != ""){
 
 		tituloGerencia = tituloGerencia.replace(/'/g,"&#39")
 		tituloGerencia = tituloGerencia.replace(/"/g,"&#34")
@@ -1106,7 +1105,7 @@ $(".guardarGerencia").click(function(){
 							confirmButtonText: 'Continuar'
 						  }).then((result) => {
 							if (result.isConfirmed) {
-							  window.location = "gerencias";
+							  window.location = "funcionarios";
 							}
 						  })
 
@@ -1137,7 +1136,7 @@ $(".guardarGerencia").click(function(){
 
 
 /*=============================================
-ELIMINAR GERENCIAS
+ELIMINAR GERENCIAS(Funcionarios)
 =============================================*/
 
 $('#tablaCarrrusel').on("click", ".btnEliminarGerencia", function(){
@@ -1177,7 +1176,7 @@ $('#tablaCarrrusel').on("click", ".btnEliminarGerencia", function(){
 							confirmButtonText: 'Continuar'
 						  }).then((res) => {
 							if (res.isConfirmed) {
-							  window.location = "gerencias";
+							  window.location = "funcionarios";
 							}
 						  })
 
@@ -1203,7 +1202,7 @@ $('#tablaCarrrusel').on("click", ".btnEliminarGerencia", function(){
 
 
 /*=============================================
-EDITAR GERENCIA
+EDITAR GERENCIA (Funcionarios)
 =============================================*/
 
 $('#tablaCarrrusel').on("click", ".btnEditarGerencia", function(){

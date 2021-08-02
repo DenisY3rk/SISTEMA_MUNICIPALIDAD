@@ -135,21 +135,28 @@ MOVIL (XS revisamos en 320px)
 	margin: 10px;
 
 }
+.modulo-organigrama, .modulo-leyorganica{
+	text-align: center;
+}
 .modulo-himno h2{
 	text-align: center;
 }
+
 .modulo-himno p{
 	font-size: 15px;
 	text-align: center;
 }
 
-.modulo-historia{
+.modulo-historia, .modulo-biodiversidad, .modulo-vision-mision{
 	text-align: justify;
 }
-.modulo-historia h2, .modulo-himno h2, .modulo-geografia h2{
+.modulo-historia h2, .modulo-himno h2, .modulo-geografia h2, .modulo-organigrama h2,.modulo-biodiversidad h2,.modulo-leyorganica h2, .modulo-vision-mision h2{
 	font-weight: bold;
 }
-.modulo-historia p, .modulo-geografia p{
+.modulo-historia p, .modulo-geografia p, .modulo-leyorganica p, .modulo-biodiversidad p, .modulo-vision-mision p{
+	font-size:15px;
+}
+.modulo-leyorganica div div p a{
 	font-size:15px;
 }
 .modulo-historia-img{
@@ -159,4 +166,10 @@ MOVIL (XS revisamos en 320px)
 	width: 98%;
 	border: 3px solid rgb(27, 54, 27);
   	border-radius: 25px;
+}
+.modulo-organigrama-img {
+	width: 100%;
+}
+.tabla-font-size{
+	font-size: 15px;
 }

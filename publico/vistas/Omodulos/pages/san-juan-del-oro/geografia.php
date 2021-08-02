@@ -2,7 +2,7 @@
     <div class="row">
         <div class="col mt-5 ms-5 me-5 mb-5">
             <h2 class="mb-4">Geografía de San Juan del Oro</h2>
-            <table class="table table-success table-striped">
+            <table class="table table-success table-striped tabla-font-size">
                 <tbody>
                     <tr>
                         <th>Coordenadas geográficas de San Juan Del Oro</th>
@@ -21,16 +21,24 @@
                     </tr>
                     <tr>
                         <th>Clima de San Juan Del Oro</th>
-                        <td>Clima oceánico (Clasificación climática de Köppen: Cfb)</td>
+                        <td>Clima oceánico ó semi cálido</td>
+                    </tr>
+                    <tr>
+                        <th>Temperatura</th>
+                        <td>10º C y 38º C</td>
+                    </tr>
+                    <tr>
+                        <th>Precipitación pluvial</th>
+                        <td>1,500 a 2,500 mm.</td>
                     </tr>
                 </tbody>
             </table>
         </div>
     </div>
     <div class="row">
-        <div class="col ms-5 me-5 mb-5">
+        <div class="col ms-5 me-5">
             <h2 class="mb-4">Demografía de San Juan del Oro</h2>
-            <table class="table table-success table-striped">
+            <table class="table table-success table-striped tabla-font-size">
                 <tbody>
                     <tr>
                         <th>Población San Juan Del Oro</th>
@@ -40,15 +48,40 @@
                         <th>Densidad de población San Juan Del Oro</th>
                         <td>66,9 /km²</td>
                     </tr>
-                    <tr>
                 </tbody>
             </table>
         </div>
     </div>
     <div class="row">
+        <div class="col mt-5 ms-5 me-5 mb-5">
+            <h2 class="mb-4">Límites del distrito de San Juan del Oro</h2>
+            <table class="table table-success table-striped tabla-font-size">
+                <tbody>
+                    <tr>
+                        <th>Por el Norte: </th>
+                        <td>Distrito de San Pedro de Putina Punco
+                    </tr>
+                    <tr>
+                        <th>Por el Sur: </th>
+                        <td>Distrito de Yanahuaya
+                    </tr>
+                    <tr>
+                        <th>Por el Este: </th>
+                        <td>República de Bolivia</td>
+                    </tr>
+                    <tr>
+                        <th>Por el Oeste: </th>
+                        <td>Distrito de Alto lnambari</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    
+    <div class="row">
         <div class="col ms-5 me-5 mb-5">
             <h2 class="mb-4">Distancia entre San Juan del Oro y las principales ciudades del país</h2>
-            <table class="table table-success table-striped">
+            <table class="table table-success table-striped tabla-font-size">
             <tbody>
                 <tr>
                     <td><strong>Lima: </strong>888 km</td>
@@ -78,7 +111,5 @@
             </tbody>
             </table>
         </div>
-    </div>
-    
-    
+    </div>  
 </div>

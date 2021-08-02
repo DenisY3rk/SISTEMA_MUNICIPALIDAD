@@ -7,24 +7,23 @@
 
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a class="nav-link scrollto active" href="<?php echo $url; ?>"><i class="bi bi-house-door-fill"></i>&nbsp Inicio</a></li>
+          <li><a class="nav-link scrollto" href="<?php echo $url; ?>"><i class="bi bi-house-door-fill"></i>&nbsp Inicio</a></li>
           <li><a class="nav-link scrollto" href="publicaciones"><i class="bi bi-file-text"></i>&nbsp Publicaciones</a></li>
           <li class="dropdown"><a href="<?php echo $url; ?>"><span><i class="bi bi-file-text"></i>&nbsp San Juan del Oro</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
               <li><a href="historia">Historia</a></li>
               <li><a href="himno">Himno del Distrito de San Juan del Oro</a></li>
               <li><a href="geografia">Información Geografica</a></li>
-              <li><a href="ecografia">Ecografia</a></li>
+              <li><a href="biodiversidad">Biodiversidad</a></li>
             </ul>
           </li>
           <li class="dropdown"><a href="<?php echo $url; ?>"><span><i class="bi bi-file-text"></i>&nbsp Municipalidad</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
               <li><a href="mision-vision">Misión y Visión</a></li>
               <li><a href="organigrama">Organigrama</a></li>
-              <li><a href="gerencias">Gerencias</a></li>
-              <li><a href="consejomunicipal">Consejo Municipal</a></li>
+              <li><a href="funcionarios">Principales Funcionarios</a></li>
               <li><a href="leyorganicamunicipalidad">Ley Organica de Municipalidades</a></li>
-              <li><a href="directoriofuncionarios">Directorio de Funcionarios</a></li>
+              
             </ul>
           </li>
           <li><a class="admin" href="<?php echo $servidor; ?>"><i class="bi bi-person-circle"></i>&nbsp Iniciar Sesión</a></li>

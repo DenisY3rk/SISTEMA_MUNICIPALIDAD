@@ -24,51 +24,7 @@ PÁGINA DE INICIO
   <!-- /.content-header -->
 
   <!-- Main content -->
-  <section class="content">
-    <div class="container-fluid">
-      
-    
-      <?php
-
-        if($_SESSION["perfil"] == "administrador"){
-
-          include "inicio/cajas-superiores.php";
-
-          include "inicio/grafico-All.php";
-
-        }
-
-      ?>
-    
-      <!-- Main row -->
-      <div class="row">
-        <!-- Left col -->
-        <div class="col-md-8">
-
-         
-            <!-- /.col -->
-
-            <div class="col-md-6">
-              
-            <?php
-
-              if($_SESSION["perfil"] == "administrador"){
-
-              }
-
-            ?>
-
-            </div>
-            <!-- /.col -->
-          </div>
-          <!-- /.row -->
-
-        
-
-
-      
-    </div><!--/. container-fluid -->
-  </section>
+ 
   <!-- /.content -->
 </div>
 <!-- /.content-wrapper -->

@@ -423,7 +423,7 @@ EDITAR PERFIL
                 <option value="administrador">Administrador</option>
 
                 <option value="editor">Editor</option>
-                
+
               </select>
 
             </div>

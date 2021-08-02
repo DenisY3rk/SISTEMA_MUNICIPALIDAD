@@ -1,5 +1,12 @@
-<div class="container-fluid container-modulo-mision">
-    <h2>Misión</h2>
-    <p>Brindar servicios de calidad con transparencia y tecnología en beneficio del ciudadano, logrando el desarrollo integral y sostenible de la ciudad, a través de una gestión participativa e innovadora.</p>
+<div class="container modulo-vision-mision">
+    <div class="row">
+        <div class="col mt-5 ms-5 me-5 mb-5">
+            <h2>Misión</h2><br>
+            <p>"Construyendo el progreso con honestidad y trabajo".</p>
+        </div>
+        <div class="col mt-5 ms-5 me-5 mb-5">
+            <h2>Visión</h2><br>
+            <p>"Ser una Municipalidad modelo que impulsa el desarrollo integral de la comunidad, con una gestión eficiente, transparente y con una activa participación ciudadana".</p>
+        </div>
+    </div>
 </div>
-    
