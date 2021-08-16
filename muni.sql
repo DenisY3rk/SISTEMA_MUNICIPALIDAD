@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 02-08-2021 a las 20:56:55
+-- Tiempo de generación: 16-08-2021 a las 18:49:34
 -- Versión del servidor: 10.4.14-MariaDB
 -- Versión de PHP: 7.2.34
 
@@ -47,7 +47,7 @@ CREATE TABLE `administradores` (
 
 INSERT INTO `administradores` (`id`, `dniAdmin`, `userAdmin`, `nombre`, `email`, `foto`, `password`, `perfil`, `estado`, `dark`, `fecha`) VALUES
 (169, '00000000', '', 'Editor', 'editor@gmail.com', 'vistas/img/perfiles/217.jpg', '$2a$07$asxx54ahjppf45sd87a5au6fAHIlFrQ7jQ4XHf7fycZYUNBysO4Bq', 'editor', 1, 1, '2021-08-02 06:42:21'),
-(170, '00000000', '', 'Admin', 'admin@gmail.com', 'vistas/img/perfiles/462.jpg', '$2a$07$asxx54ahjppf45sd87a5auXBm1Vr2M1NV5t/zNQtGHGpS5fFirrbG', 'administrador', 1, 0, '2021-08-02 05:57:13');
+(170, '00000000', '', 'Admin', 'admin@gmail.com', 'vistas/img/perfiles/462.jpg', '$2a$07$asxx54ahjppf45sd87a5auXBm1Vr2M1NV5t/zNQtGHGpS5fFirrbG', 'administrador', 1, 1, '2021-08-16 16:48:21');
 
 -- --------------------------------------------------------
 
