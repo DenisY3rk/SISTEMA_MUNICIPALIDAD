@@ -23,7 +23,6 @@
               <li><a href="organigrama">Organigrama</a></li>
               <li><a href="funcionarios">Principales Funcionarios</a></li>
               <li><a href="leyorganicamunicipalidad">Ley Organica de Municipalidades</a></li>
-              
             </ul>
           </li>
           <li><a class="admin" href="<?php echo $servidor; ?>"><i class="bi bi-person-circle"></i>&nbsp Iniciar Sesión</a></li>
