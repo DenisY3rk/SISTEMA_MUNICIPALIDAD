@@ -61,7 +61,7 @@ session_start();
   <script src="vistas/plugins/dropzone/dropzone.js"></script>
     
 </head>
-
+<!--- <address>Denis Vasquez Canaza</address> -->
 <body class="hold-transition <?php if(isset($_SESSION["estiloPantalla"]) && $_SESSION["estiloPantalla"] == 1){ echo 'dark-mode'; } ?>  sidebar-mini layout-fixed layout-navbar-fixed layout-footer-fixed">
 
 <?php
