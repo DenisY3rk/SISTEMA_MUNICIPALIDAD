@@ -25,7 +25,7 @@
               <li><a href="leyorganicamunicipalidad">Ley Organica de Municipalidades</a></li>
             </ul>
           </li>
-          <li><a class="admin" href="<?php echo $servidor; ?>"><i class="bi bi-person-circle"></i>&nbsp Iniciar Sesión</a></li>
+          <li><a class="admin" href="<?php echo $servidor; ?>" target="_blank"><i class="bi bi-person-circle"></i>&nbsp Iniciar Sesión</a></li>
           </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
