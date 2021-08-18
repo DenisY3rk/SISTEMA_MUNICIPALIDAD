@@ -5,12 +5,12 @@
     <div class="container-fluid">
       <div class="row mb-2">
         <div class="col-sm-6">
-          <h1 class="m-0">GESTOR DE FUNCIONARIOS</h1>
+          <h1 class="m-0">GESTOR DE GERENCIAS</h1>
         </div><!-- /.col -->
         <div class="col-sm-6">
           <ol class="breadcrumb float-sm-right">
             <li class="breadcrumb-item"><a href="inicio">INICIO</a></li>
-            <li class="breadcrumb-item active">GESTOR DE FUNCIONARIOS</li>
+            <li class="breadcrumb-item active">GESTOR DE GERENCIAS</li>
           </ol>
         </div><!-- /.col -->
       </div><!-- /.row -->
@@ -35,7 +35,7 @@
           <div class="card">
 
             <div class="card-header border-transparent">
-              <h3 class="card-title">GESTOR DE FUNCIONARIOS</h3>
+              <h3 class="card-title">GESTOR DE GERENCIAS</h3>
 
               <div class="card-tools">
                 <button type="button" class="btn btn-tool" data-card-widget="collapse">
@@ -134,7 +134,7 @@
             <!-- /.card-body -->
             <div class="card-footer clearfix">
 
-              <a class="btn btn-sm btn-info float-right" data-toggle="modal" data-target="#modalAgregarGerencia">AGREGAR NUEVO FUNCIONARIO</a>
+              <a class="btn btn-sm btn-info float-right" data-toggle="modal" data-target="#modalAgregarGerencia">AGREGAR NUEVA GERENCIA</a>
               
             </div>
             <!-- /.card-footer -->
@@ -170,7 +170,7 @@
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
-        <h4 class="modal-title">AGREGAR NUEVO FUNCIONARIO</h4>
+        <h4 class="modal-title">AGREGAR NUEVA GERENCIA</h4>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -182,7 +182,7 @@
               <div class="input-group-prepend">
                 <span class="input-group-text"><i class="fas fa-bolt" style="width:20px"></i></span>
               </div>
-              <input type="text" style="text-transform:uppercase;" onkeyup="javascript:this.value=this.value.toUpperCase();" class="form-control tituloGerencia" placeholder="TITULO FUNCIONARIO">
+              <input type="text" style="text-transform:uppercase;" onkeyup="javascript:this.value=this.value.toUpperCase();" class="form-control tituloGerencia" placeholder="TITULO GERENCIA">
               <input type="hidden" class="form-control rutaGerencia" readonly>
             </div>
           </div>

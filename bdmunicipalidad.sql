@@ -106,33 +106,6 @@ INSERT INTO `gerencias` (`idGerencias`, `titulo`, `ruta`, `encargado`, `portada`
 -- --------------------------------------------------------
 
 --
--- Estructura de tabla para la tabla `notificacion`
---
-
-CREATE TABLE `notificacion` (
-  `idNotificacion` int(11) NOT NULL,
-  `tipoDocTitular` int(11) NOT NULL,
-  `numDocTitular` text NOT NULL,
-  `nombreTitular` text NOT NULL,
-  `apellidoTitular` text NOT NULL,
-  `cantidad` int(11) NOT NULL,
-  `dias` int(11) NOT NULL,
-  `detalle` text NOT NULL,
-  `fecha` timestamp NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp(),
-  `visto` int(11) NOT NULL,
-  `idDetalleArticulo` int(11) DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
-
---
--- Volcado de datos para la tabla `notificacion`
---
-
-INSERT INTO `notificacion` (`idNotificacion`, `tipoDocTitular`, `numDocTitular`, `nombreTitular`, `apellidoTitular`, `cantidad`, `dias`, `detalle`, `fecha`, `visto`, `idDetalleArticulo`) VALUES
-(167, 0, '454111', 'Alex', 'Esca', 12, 2, 'xde', '2021-07-20 08:24:29', 0, 1);
-
--- --------------------------------------------------------
-
---
 -- Estructura de tabla para la tabla `plantilla`
 --
 
@@ -261,13 +234,6 @@ ALTER TABLE `gerencias`
   ADD PRIMARY KEY (`idGerencias`);
 
 --
--- Indices de la tabla `notificacion`
---
-ALTER TABLE `notificacion`
-  ADD PRIMARY KEY (`idNotificacion`),
-  ADD KEY `notf-art` (`idDetalleArticulo`);
-
---
 -- Indices de la tabla `plantilla`
 --
 ALTER TABLE `plantilla`
@@ -312,12 +278,6 @@ ALTER TABLE `carrusel`
 --
 ALTER TABLE `gerencias`
   MODIFY `idGerencias` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=37;
-
---
--- AUTO_INCREMENT de la tabla `notificacion`
---
-ALTER TABLE `notificacion`
-  MODIFY `idNotificacion` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=168;
 
 --
 -- AUTO_INCREMENT de la tabla `plantilla`

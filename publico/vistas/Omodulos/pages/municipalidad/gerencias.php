@@ -4,8 +4,7 @@
       <div class="container" data-aos="fade-up">
 
         <header class="section-header">
-          <h2>Principales</h2>
-          <p>FUNCIONARIOS</p>
+          <p>GERENCIAS</p>
         </header>
 
         <div class="row gy-4">

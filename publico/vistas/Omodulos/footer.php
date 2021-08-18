@@ -22,7 +22,7 @@
             <h4>Enlaces</h4>
             <ul>
               <li><i class="bi bi-chevron-right"></i> <a href="inicio">Inicio</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="funcionarios">Funcionarios</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="gerencias">Gerencias</a></li>
               <li><i class="bi bi-chevron-right"></i> <a href="infoCarousel">Videos</a></li>
               <li><i class="bi bi-chevron-right"></i> <a href="#">Términos y condiciones</a></li>
               <li><i class="bi bi-chevron-right"></i> <a href="#">Políticas de privacidad</a></li>

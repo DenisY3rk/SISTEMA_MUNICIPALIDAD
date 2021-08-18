@@ -1060,7 +1060,7 @@ $('#tablaCarrrusel').on("click", ".btnEliminarCimagen", function(){
 
 
 /*=============================================
-GUARDAR GERENCIA (Funcionarios)
+GUARDAR GERENCIA
 =============================================*/
 
 $(".guardarGerencia").click(function(){
@@ -1105,7 +1105,7 @@ $(".guardarGerencia").click(function(){
 							confirmButtonText: 'Continuar'
 						  }).then((result) => {
 							if (result.isConfirmed) {
-							  window.location = "funcionarios";
+							  window.location = "gerencias";
 							}
 						  })
 
@@ -1136,7 +1136,7 @@ $(".guardarGerencia").click(function(){
 
 
 /*=============================================
-ELIMINAR GERENCIAS(Funcionarios)
+ELIMINAR GERENCIAS
 =============================================*/
 
 $('#tablaCarrrusel').on("click", ".btnEliminarGerencia", function(){
@@ -1176,7 +1176,7 @@ $('#tablaCarrrusel').on("click", ".btnEliminarGerencia", function(){
 							confirmButtonText: 'Continuar'
 						  }).then((res) => {
 							if (res.isConfirmed) {
-							  window.location = "funcionarios";
+							  window.location = "gerencias";
 							}
 						  })
 
@@ -1202,7 +1202,7 @@ $('#tablaCarrrusel').on("click", ".btnEliminarGerencia", function(){
 
 
 /*=============================================
-EDITAR GERENCIA (Funcionarios)
+EDITAR GERENCIA
 =============================================*/
 
 $('#tablaCarrrusel').on("click", ".btnEditarGerencia", function(){

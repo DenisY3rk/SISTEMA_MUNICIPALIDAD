@@ -91,7 +91,7 @@ session_start();
            $_GET["ruta"]== "publicacion" ||
            $_GET["ruta"]== "pvideos" ||
            $_GET["ruta"]== "carrusel" ||
-           $_GET["ruta"]== "funcionarios" ||
+           $_GET["ruta"]== "gerencias" ||
            $_GET["ruta"]== "salir"){
           
           include "modulos/".$_GET["ruta"].".php";

@@ -181,7 +181,7 @@
 
 			include "Omodulos/pages/san-juan-del-oro/".$rutas[0].".php";
 
-		}else if($rutas[0] == "mision-vision" || $rutas[0] == "organigrama" || $rutas[0] == "funcionarios" || $rutas[0] == "leyorganicamunicipalidad" ){
+		}else if($rutas[0] == "mision-vision" || $rutas[0] == "organigrama" || $rutas[0] == "gerencias" || $rutas[0] == "leyorganicamunicipalidad" ){
 
 			include "Omodulos/pages/municipalidad/".$rutas[0].".php";
 

@@ -21,7 +21,7 @@
             <ul>
               <li><a href="mision-vision">Misión y Visión</a></li>
               <li><a href="organigrama">Organigrama</a></li>
-              <li><a href="funcionarios">Principales Funcionarios</a></li>
+              <li><a href="gerencias">Gerencias</a></li>
               <li><a href="leyorganicamunicipalidad">Ley Organica de Municipalidades</a></li>
             </ul>
           </li>
