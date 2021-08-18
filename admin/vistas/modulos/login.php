@@ -14,7 +14,7 @@
         
         <div class="login-logo">
           
-          <img src="vistas/img/plantilla/logo_1.png" style="height:110px">
+          <img class="modulo-login-img" src="vistas/img/plantilla/logo_1.png">
         </div>
 
         <form method="post">

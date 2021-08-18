@@ -7,7 +7,7 @@
           <div class="col-lg-5 col-md-12 footer-info">
             <a href="<?php echo $url; ?>" class="logo d-flex align-items-center">
               <img src="<?php echo $servidor."vistas/img/plantilla/icono.png";?>" alt="">
-              <span>Municipalidad Distrital de San Juan del Oro</span>
+              <h4><br>Municipalidad Distrital de San Juan del Oro</h4>
             </a>
             <p>¡Siguenos en nuestras redes sociales!</p>
             <div class="social-links mt-3">
