@@ -4,7 +4,7 @@
 	<div class="container" data-aos="fade-up">
 	<header class="section-header">
 		<h2>Blog</h2>
-		<p>Recent posts form our Blog</p>
+		<p>Publicaciones recientes de nuestro Blog</p>
 	</header>
 	<div class="row">
 

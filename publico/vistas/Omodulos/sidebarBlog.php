@@ -14,7 +14,7 @@
 <div class="sidebar-item categories">
   <ul>
     <li><a href="CNoticia">Noticias <span>(<?php echo ControladorGeneral::ctrListar("publicar", "categoria", 1); ?>)</span></a></li>
-    <li><a href="CProxAct">Proximas Actividades <span>(<?php echo ControladorGeneral::ctrListar("publicar", "categoria", 2); ?>)</span></a></li>
+    <li><a href="CProxAct">Próximas Actividades <span>(<?php echo ControladorGeneral::ctrListar("publicar", "categoria", 2); ?>)</span></a></li>
     <li><a href="CObrasRe">Obras Realizadas <span>(<?php echo ControladorGeneral::ctrListar("publicar", "categoria", 3); ?>)</span></a></li>
   </ul>
 </div><!-- End sidebar categories-->

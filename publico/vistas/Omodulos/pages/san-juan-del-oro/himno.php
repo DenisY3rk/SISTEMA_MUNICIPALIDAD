@@ -1,7 +1,7 @@
 <div class="container modulo-himno">
     <div class="row">
         <div class="col mt-5 ms-5 me-5 mb-5">
-            <h2>Himno del Distrito San Juan del Oro</h2>
+            <h2>HIMNO DEL DISTRITO SAN JUAN DEL ORO</h2>
             <p>
                 <strong>CORO</strong>
                 En las faldas del Parcos descansa orgullosa en su historia y su faz mi ciudad de San José de Lourdes que al Perú le da gloria y honor.

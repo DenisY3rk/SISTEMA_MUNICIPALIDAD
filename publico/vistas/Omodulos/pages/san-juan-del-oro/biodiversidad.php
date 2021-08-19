@@ -1,7 +1,7 @@
 <div class="container modulo-biodiversidad">
     <div class="row">
         <div class="col mt-5 ms-5 me-5 mb-2">
-            <h2>Biodiversidad del Distrito San Juan del Oro</h2>
+            <h2>BIODIVERSIDAD DEL DISTRITO SAN JUAN DEL ORO</h2>
             <p>
                 El distrito de San Juan del Oro se caracteriza por su alta diversidad biológica y
                 extraordinaria belleza paisajística. La riqueza en especies de flora y fauna se debe a la
@@ -14,7 +14,7 @@
     </div>
     <div class="row">
         <div class="col ms-5 me-5 mb-5">
-            <h2 class="mb-4">Variedad de fauna en el Alto Tambopata</h2>
+            <h2 class="mb-4">VARIEDAD DE FAUNA EN EL ALTO TAMBOPATA</h2>
             <table class="table table-success table-striped tabla-font-size">
                 <tbody>
                     <tr>

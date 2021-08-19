@@ -152,6 +152,7 @@ MOVIL (XS revisamos en 320px)
 }
 .modulo-historia h2, .modulo-himno h2, .modulo-geografia h2, .modulo-organigrama h2,.modulo-biodiversidad h2,.modulo-leyorganica h2, .modulo-vision-mision h2{
 	font-weight: bold;
+	color: #012970;
 }
 .modulo-historia p, .modulo-geografia p, .modulo-leyorganica p, .modulo-biodiversidad p, .modulo-vision-mision p{
 	font-size:15px;

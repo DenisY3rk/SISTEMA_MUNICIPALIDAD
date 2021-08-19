@@ -1,7 +1,7 @@
 <div class="container modulo-historia">
     <div class="row">
         <div class="col mt-5 ms-5">
-            <h2>Reseña Historica</h2>
+            <h2>RESEÑA HISTORICA</h2>
             <p>
             Pedro de Candía, el griego, primer alcalde la ciudad del Cuzco, uno de los trece de la isla del Gallo que acompañaran a Francisco Pizarro; fue un acérrimo creyente de la idea del Paitití o, el país donde las casas eran de oro, los caminos asfaltados con oro, las estatuas de sus líderes esculpidas en oro, todo era de oro: el Dorado.
             </p>
@@ -30,7 +30,7 @@
 
     <div class="row">
         <div class="col ms-5 me-5 mb-5">
-        <h2>Distrito de San Juan del oro</h2>
+        <h2>DISTRITO DE SAN JUAN DEL ORO</h2>
         <p>
         El distrito de San Juan del Oro, fue creado por Ley N° 12415; con su capital del mismo nombre. Dado en la casa de gobierno, en Lima, a los 7 días del mes de noviembre de 1955, siendo Presidente Constitucional de la República, el General Manuel Apolinario Odría, y gracias a la tenaz persistencia de quien presentó el proyecto, Dr. Pablo Apaza Toque, Diputado por la Provincia de Huancané, solidarizándose con el pueblo Sanjuaneño.
         </p>

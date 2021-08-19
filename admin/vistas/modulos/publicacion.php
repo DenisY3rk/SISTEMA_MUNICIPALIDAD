@@ -234,7 +234,7 @@
                   
                 <option value="">SELECCIONAR CATEGORIA</option>
                 <option value="1">NOTICIAS</option>
-                <option value="2">PROXIMAS ACTIVIDADES</option>
+                <option value="2">PRÓXIMAS ACTIVIDADES</option>
                 <option value="3">OBRAS REALIZADAS</option>
 
               </select>
@@ -377,7 +377,7 @@
                   
                 <option value="">SELECCIONAR CATEGORIA</option>
                 <option value="1">NOTICIAS</option>
-                <option value="2">PROXIMAS ACTIVIDADES</option>
+                <option value="2">PRÓXIMAS ACTIVIDADES</option>
                 <option value="3">OBRAS REALIZADAS</option>
 
               </select>

@@ -1,7 +1,7 @@
 <div class="container modulo-geografia">
     <div class="row">
         <div class="col mt-5 ms-5 me-5 mb-5">
-            <h2 class="mb-4">Geografía de San Juan del Oro</h2>
+            <h2 class="mb-4">GEOGRAFÍA DE SAN JUAN DEL ORO</h2>
             <table class="table table-success table-striped tabla-font-size">
                 <tbody>
                     <tr>
@@ -37,7 +37,7 @@
     </div>
     <div class="row">
         <div class="col ms-5 me-5">
-            <h2 class="mb-4">Demografía de San Juan del Oro</h2>
+            <h2 class="mb-4">DEMOGRAFÍA DE SAN JUAN DEL ORO</h2>
             <table class="table table-success table-striped tabla-font-size">
                 <tbody>
                     <tr>
@@ -54,7 +54,7 @@
     </div>
     <div class="row">
         <div class="col mt-5 ms-5 me-5 mb-5">
-            <h2 class="mb-4">Límites del distrito de San Juan del Oro</h2>
+            <h2 class="mb-4">LÍMITES DEL DISTRITO DE SAN JUAN DEL ORO</h2>
             <table class="table table-success table-striped tabla-font-size">
                 <tbody>
                     <tr>
@@ -80,7 +80,7 @@
     
     <div class="row">
         <div class="col ms-5 me-5 mb-5">
-            <h2 class="mb-4">Distancia entre San Juan del Oro y las principales ciudades del país</h2>
+            <h2 class="mb-4">DISTANCIA ENTRE SAN JUAN DEL ORO Y LAS PRINCIPALES CIUDADES DEL PAÍS</h2>
             <table class="table table-success table-striped tabla-font-size">
             <tbody>
                 <tr>

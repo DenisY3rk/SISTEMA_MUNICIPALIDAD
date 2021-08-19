@@ -44,7 +44,7 @@
 	</div>
     
 	<header class="section-header" data-aos="fade-up">
-		<p>PROXIMAS ACTIVIDADES</p>
+		<p>PRÓXIMAS ACTIVIDADES</p>
 	</header>
 	<div class="row" data-aos="fade-up">
 
@@ -129,7 +129,7 @@
 	<footer class="section-header">
         
         <a href="publicaciones">
-            <h4>VER MAS</h4>
+            <h4>VER MÁS PUBLICACIONES</h4>
         </a>
 
 	</footer>
