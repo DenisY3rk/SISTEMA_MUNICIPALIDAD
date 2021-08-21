@@ -194,7 +194,7 @@
 			include "Omodulos/carousel.php";
 			include "Omodulos/servicios.php";
 			include "Omodulos/Inoticias.php";
-			//include "Omodulos/infoCarousel.php";
+			include "Omodulos/infoCarousel.php";
 			include "Omodulos/preguntasF.php";
 
 		}else{
@@ -208,7 +208,7 @@
 		include "Omodulos/carousel.php";
 		include "Omodulos/servicios.php";
 		include "Omodulos/Inoticias.php";
-		//include "Omodulos/infoCarousel.php";
+		include "Omodulos/infoCarousel.php";
 		include "Omodulos/preguntasF.php";
 
 	}
