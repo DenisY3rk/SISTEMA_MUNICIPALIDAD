@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 16-08-2021 a las 18:49:34
+-- Tiempo de generación: 21-08-2021 a las 22:33:17
 -- Versión del servidor: 10.4.14-MariaDB
 -- Versión de PHP: 7.2.34
 
@@ -46,8 +46,8 @@ CREATE TABLE `administradores` (
 --
 
 INSERT INTO `administradores` (`id`, `dniAdmin`, `userAdmin`, `nombre`, `email`, `foto`, `password`, `perfil`, `estado`, `dark`, `fecha`) VALUES
-(169, '00000000', '', 'Editor', 'editor@gmail.com', 'vistas/img/perfiles/217.jpg', '$2a$07$asxx54ahjppf45sd87a5au6fAHIlFrQ7jQ4XHf7fycZYUNBysO4Bq', 'editor', 1, 1, '2021-08-02 06:42:21'),
-(170, '00000000', '', 'Admin', 'admin@gmail.com', 'vistas/img/perfiles/462.jpg', '$2a$07$asxx54ahjppf45sd87a5auXBm1Vr2M1NV5t/zNQtGHGpS5fFirrbG', 'administrador', 1, 1, '2021-08-16 16:48:21');
+(171, '00000000', '', 'AdminOne', 'admin1@gmail.com', 'vistas/img/perfiles/609.jpg', '$2a$07$asxx54ahjppf45sd87a5aubBUKwoTKbxrR7U.P55bYhaBGTUjLsXW', 'administrador', 1, 1, '2021-08-21 20:32:03'),
+(172, '00000000', '', 'EditorOne', 'editor1@gmail.com', 'vistas/img/perfiles/918.jpg', '$2a$07$asxx54ahjppf45sd87a5auoBr8sXRZt.j8PdOFvYTXkdjCawc/3Fu', 'editor', 1, 1, '2021-08-21 20:32:28');
 
 -- --------------------------------------------------------
 
@@ -180,37 +180,6 @@ INSERT INTO `pvideos` (`idPvideos`, `enlace`, `titulo`, `categoria`, `fecha`) VA
 (33, '<iframe width=\"853\" height=\"480\" src=\"https://www.youtube.com/embed/CtOqLC1I7Ko\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>', 'DOCUMENTAL CAFES ESPECIALES CECOVASA LTDA', '1', '2021-08-02 01:17:30'),
 (35, '<iframe width=\"853\" height=\"480\" src=\"https://www.youtube.com/embed/X5jYBxhNh6w\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>', 'MEJORAMIENTO DE LA CARRETERA, SAN JUAN DEL ORO, BOTIJANI, CHUHAMAYO, YURAJMAYO – QUISPICANCHIS', '3', '2021-08-02 01:22:21');
 
--- --------------------------------------------------------
-
---
--- Estructura de tabla para la tabla `usuarios`
---
-
-CREATE TABLE `usuarios` (
-  `id` int(11) NOT NULL,
-  `codigo` text COLLATE utf8_spanish_ci NOT NULL,
-  `dni` text COLLATE utf8_spanish_ci NOT NULL,
-  `nombre` text COLLATE utf8_spanish_ci NOT NULL,
-  `user` text COLLATE utf8_spanish_ci NOT NULL,
-  `password` text COLLATE utf8_spanish_ci NOT NULL,
-  `email` text COLLATE utf8_spanish_ci NOT NULL,
-  `modo` text COLLATE utf8_spanish_ci NOT NULL,
-  `foto` text COLLATE utf8_spanish_ci NOT NULL,
-  `verificacion` int(11) NOT NULL,
-  `emailEncriptado` text COLLATE utf8_spanish_ci NOT NULL,
-  `fecha` timestamp NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp()
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_spanish_ci;
-
---
--- Volcado de datos para la tabla `usuarios`
---
-
-INSERT INTO `usuarios` (`id`, `codigo`, `dni`, `nombre`, `user`, `password`, `email`, `modo`, `foto`, `verificacion`, `emailEncriptado`, `fecha`) VALUES
-(53, '162894', '', 'usuarioone', 'estudiante', '$2a$07$asxx54ahjppf45sd87a5aueuBkuSURBtX031YZ8zZTYNNVwIDNOwS', 'estudiante@gmail.com', 'directo', 'vistas/img/usuarios/53/585.png', 0, 'f652b531bff7a32fc1b3b4b59f200070', '2021-02-15 15:47:01'),
-(54, '12345786', '', 'docenteone', 'docente', '$2a$07$asxx54ahjppf45sd87a5au5.80yzYkzzYfm4v0hxFjblcuW51TwIK', 'docente@gmail.com', 'directo', 'vistas/img/usuarios/54/956.jpg', 0, '33ff7d62b29b24e8bca8af8531159ea9', '2021-02-15 15:46:30'),
-(86, '73104786', '', 'Axel flores mamani', 'axel', '$2a$07$asxx54ahjppf45sd87a5auK5NYo0IVC7CCoZgximaPAKw8SyTE9qe', 'axel@gmail.com', 'directo', 'vistas/img/usuarios/86/903.jpg', 0, '3218da89280d03db1d26f8622068665b', '2021-02-23 00:13:35'),
-(87, '12312312', '', 'Martin lopez aliaga', 'martin', '$2a$07$asxx54ahjppf45sd87a5auNRvLS0n1cDa8U2FlopsFBInpxxpEiiG', 'martin@gmail.com', 'directo', 'vistas/img/usuarios/87/723.jpg', 0, 'eb20df43d0bdb3ba79f3143e3267e90a', '2021-02-23 03:09:40');
-
 --
 -- Índices para tablas volcadas
 --
@@ -252,12 +221,6 @@ ALTER TABLE `pvideos`
   ADD PRIMARY KEY (`idPvideos`);
 
 --
--- Indices de la tabla `usuarios`
---
-ALTER TABLE `usuarios`
-  ADD PRIMARY KEY (`id`);
-
---
 -- AUTO_INCREMENT de las tablas volcadas
 --
 
@@ -265,7 +228,7 @@ ALTER TABLE `usuarios`
 -- AUTO_INCREMENT de la tabla `administradores`
 --
 ALTER TABLE `administradores`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=171;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=173;
 
 --
 -- AUTO_INCREMENT de la tabla `carrusel`
@@ -296,12 +259,6 @@ ALTER TABLE `publicar`
 --
 ALTER TABLE `pvideos`
   MODIFY `idPvideos` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=36;
-
---
--- AUTO_INCREMENT de la tabla `usuarios`
---
-ALTER TABLE `usuarios`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=88;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
