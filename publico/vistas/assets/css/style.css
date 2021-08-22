@@ -176,7 +176,7 @@ section {
   right: 15px;
   bottom: 15px;
   z-index: 99999;
-  background: #4154f1;
+  background: #059652;
   width: 40px;
   height: 40px;
   border-radius: 4px;
@@ -190,7 +190,7 @@ section {
 }
 
 .back-to-top:hover {
-  background: #6776f4;
+  background: hsl(152, 69%, 72%);
   color: #fff;
 }
 
@@ -526,7 +526,7 @@ section {
 }
 
 .navbar-mobile .dropdown ul a:hover, .navbar-mobile .dropdown ul .active:hover, .navbar-mobile .dropdown ul li:hover > a {
-  color: rgba(53, 51, 51, 0.849);
+  color: #059652;
 }
 
 .navbar-mobile .dropdown > .dropdown-active {
