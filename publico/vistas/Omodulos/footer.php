@@ -41,9 +41,9 @@
             <h4>Información de contacto</h4>
             <p>
             <strong>Dirección:</strong> Pza. de Armas Nro. s/n Cercado, San Juan del Oro - Sandia - Puno - Perú <br>
-              <strong>Contacto 1:</strong> (051) 000000<br>
-              <strong>Contacto 2:</strong> (051) 000000<br>
-              <strong>Email:</strong> sanjuandeloro@gmail.com
+              <strong>Contacto 1:</strong> (+51) 976338770<br>
+              <strong>Contacto 2:</strong> (+51) 962316629<br>
+              <strong>Email:</strong> munisjo2019.2022@gmail.com
             </p>
 
           </div>
