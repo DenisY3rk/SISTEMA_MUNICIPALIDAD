@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 21-08-2021 a las 22:33:17
+-- Tiempo de generación: 16-08-2021 a las 18:49:34
 -- Versión del servidor: 10.4.14-MariaDB
 -- Versión de PHP: 7.2.34
 
@@ -180,6 +180,8 @@ INSERT INTO `pvideos` (`idPvideos`, `enlace`, `titulo`, `categoria`, `fecha`) VA
 (33, '<iframe width=\"853\" height=\"480\" src=\"https://www.youtube.com/embed/CtOqLC1I7Ko\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>', 'DOCUMENTAL CAFES ESPECIALES CECOVASA LTDA', '1', '2021-08-02 01:17:30'),
 (35, '<iframe width=\"853\" height=\"480\" src=\"https://www.youtube.com/embed/X5jYBxhNh6w\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>', 'MEJORAMIENTO DE LA CARRETERA, SAN JUAN DEL ORO, BOTIJANI, CHUHAMAYO, YURAJMAYO – QUISPICANCHIS', '3', '2021-08-02 01:22:21');
 
+-- --------------------------------------------------------
+
 --
 -- Índices para tablas volcadas
 --
@@ -220,6 +222,7 @@ ALTER TABLE `publicar`
 ALTER TABLE `pvideos`
   ADD PRIMARY KEY (`idPvideos`);
 
+
 --
 -- AUTO_INCREMENT de las tablas volcadas
 --
@@ -228,7 +231,7 @@ ALTER TABLE `pvideos`
 -- AUTO_INCREMENT de la tabla `administradores`
 --
 ALTER TABLE `administradores`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=173;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=171;
 
 --
 -- AUTO_INCREMENT de la tabla `carrusel`
@@ -259,7 +262,7 @@ ALTER TABLE `publicar`
 --
 ALTER TABLE `pvideos`
   MODIFY `idPvideos` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=36;
-COMMIT;
+  COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
